@@ -1,0 +1,98 @@
+{
+  "title": "Accounts and Transactions",
+  "name": "Accounts and Transactions",
+  "brand": "Fiserv",
+  "brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
+  "solution": "openBanking",
+  "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
+  "categories": [
+    {
+      "name": "domains",
+      "value": "API Domains",
+      "subcategories": [
+        {
+          "name": "accounts",
+          "value": "Accounts"
+        },
+        {
+          "name": "lending",
+          "value": "Lending"
+        },
+        {
+          "name": "notifications",
+          "value": "Notifications"
+        },
+        {
+          "name": "Cards",
+          "value": "Cards"
+        }
+      ]
+    },
+    {
+      "name": "bankingCores",
+      "value": "Banking Cores",
+      "subcategories": [
+        {
+          "name": "premier",
+          "value": "Premier"
+        },
+        {
+          "name": "precision",
+          "value": "Precision"
+        },
+        {
+          "name": "signature",
+          "value": "Signature"
+        },
+        {
+          "name": "dNA",
+          "value": "DNA"
+        }
+      ]
+    },
+    {
+      "name": "businessSegments",
+      "value": "Business Segments",
+      "subcategories": [
+        {
+          "name": "b2B",
+          "value": "B2B"
+        },
+        {
+          "name": "b2C",
+          "value": "B2C"
+        }
+      ]
+    }
+  ],
+  "product": {
+    "featured": true,
+    "logoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
+    "description": "This API grouping enables access to pertinent information about accounts within a financial institution, transactions related to those accounts and relationships between accounts and accountholders.",
+    "longDescription": "<p>This API grouping enables access to pertinent information about accounts within a financial institution, transactions related to those accounts and relationships between accounts and accountholders.</p><ul><li> Account lists</li><li> Transaction data</li><li> Balance information</li></ul>",
+    "apiSpecification": "/v1/apis",
+    "layout": "/v1/layouts",
+    "documentation": "/v1/docs",
+    "documenttree": "/v1/docs",
+    "documenttreeV2": "/v2/docs",
+    "sandbox": "/v1/sandboxrun",
+    "feature": [
+      {
+        "name": "sandBox",
+        "value": false
+      },
+      {
+        "name": "plugins",
+        "value": false
+      },
+      {
+        "name": "industryOptionsAPIExplorer",
+        "value": false
+      },
+      {
+        "name": "editParameterAPIExplorer",
+        "value": false
+      }
+    ]
+  }
+}
