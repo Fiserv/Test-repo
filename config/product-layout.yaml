@@ -23,18 +23,23 @@ steps:
         When your application is ready for deployment, submit it for our automated certification. Once certified, it can be deployed to the production.
       link:
 featuredFeatures:
-  - title: Accounts
+  - title: Industry Standards
     description: >
-      Provides pertinent information about accounts within a financial institution and relationships between accounts and accountholders
-  - title: Transactions
+      Our APIs leverage the common financial object definitions of the Afinis IFX 2.3 Business Messaging Specification (BMS).
+  - title: REST APIs
     description: >
-      Provides transactions related to those accounts.
+      Our lightweight, REST APIs are ideal for the digital channels consumers prefer.
+  - title: Functionality
+    description: >
+      These APIs make it possible to add or delete parties from accounts and specify their relationships to those accounts such as owner, signer, beneficiary, trustee, custodian and so forth. 
 benefits:
-  - title: Lists
+  - title: Market Reach
     description: >
-      Obtain a list of accounts, their balances and essential information.
-  - title: Analysis and alerting
-    description: Gather transaction data for analysis and alerting.
+      Pre-integrate your app to Fiserv platforms used by more than one in three financial institutions in the U.S. Reach 100 million digital banking users.
+  - title: Simplified Integration
+    description: More than 25,000 fields from Fiserv banking solutions are exposed through normalized APIs, enabling once-and-done integration. No point-to-point integration to individual platforms
+  - title: Co-Innovation
+    description: Collaborate with financial institutions to create highly personalized touchpoints and customer journeys.
 featuredAPIs:
   - name: Charges
     description: Used to submit a charge transaction.
@@ -123,11 +128,11 @@ featuredAPIs:
     language: Curl
     link: link to API Explorer   
 useCases:
-  - title: Business to business
-    subtitle: B2B
+  - title: Customized Account Access
+    subtitle: Customized Account Access
     description: > 
-      Obtain robust configuration and account details.
-  - title: Business to consumer
-    subtitle: B2C
+      Partner with financial institutions to offer the convenience of customized access to accounts based on party-to-account relationships. Offer consolidated views of all accounts related to a particular party. 
+  - title: Family Finance Apps
+    subtitle: Family Finance Apps
     description: > 
-      For applications targeting consumers, our lightweight APIs provide essential account and transaction data in a smaller payload.
+      Develop or integrate innovative apps that enhance financial literacy and help young people pursue their financial goals with oversight from trusted adults. 
