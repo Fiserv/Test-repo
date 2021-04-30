@@ -5,51 +5,50 @@
   "brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
   "solution": "openBanking",
   "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
-  "categories": [
-    {
-      "name": "domains",
-      "value": "API Domains",
-      "subcategories": [
-        {
-          "name": "accounts",
-          "value": "Accounts"
-        },
-        {
-          "name": "lending",
-          "value": "Lending"
-        },
-        {
-          "name": "notifications",
-          "value": "Notifications"
-        },
-        {
-          "name": "Cards",
-          "value": "Cards"
-        }
-      ]
-    },
+   "categories": [    
     {
       "name": "bankingCores",
       "value": "Banking Cores",
       "subcategories": [
         {
-          "name": "premier",
-          "value": "Premier"
+          "name": "precision",
+          "value": "Precision",
+          "description": "Identify APIs that enable integration to the Precision bank platform"
         },
         {
-          "name": "precision",
-          "value": "Precision"
+          "name": "cleartouch",
+          "value": "Cleartouch",
+          "description": "Identify APIs that enable integration to the Cleartouch bank platform"
         },
         {
           "name": "signature",
-          "value": "Signature"
+          "value": "Signature",
+          "description": "Identify APIs that enable integration to the Signature bank platform"
         },
         {
           "name": "dNA",
-          "value": "DNA"
+          "value": "DNA",
+          "description": "Identify APIs that enable integration to the DNA platform"
         }
       ]
     },
+    {
+      "name": "businessSegments",
+      "value": "Business Segments",
+      "subcategories": [
+        {
+          "name": "b2B",
+          "value": "B2B",
+          "description": "Identify APIs that support business-to-business banking functions"
+        },
+        {
+          "name": "b2C",
+          "value": "B2C",
+          "description": "Identify APIs that support business-to-consumer banking functions"
+        }
+      ]
+    }
+  ],
     {
       "name": "businessSegments",
       "value": "Business Segments",
