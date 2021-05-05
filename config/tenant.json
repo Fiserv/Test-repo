@@ -7,47 +7,14 @@
   "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
    "categories": [    
     {
-      "name": "bankingCores",
-      "value": "Banking Cores",
+      "name": "businessFunction",
+      "value": "Business Function",
       "subcategories": [
         {
-          "name": "precision",
-          "value": "Precision",
-          "description": "Identify APIs that enable integration to the Precision bank platform"
-        },
-        {
-          "name": "cleartouch",
-          "value": "Cleartouch",
-          "description": "Identify APIs that enable integration to the Cleartouch bank platform"
-        },
-        {
-          "name": "signature",
-          "value": "Signature",
-          "description": "Identify APIs that enable integration to the Signature bank platform"
-        },
-        {
-          "name": "dNA",
-          "value": "DNA",
-          "description": "Identify APIs that enable integration to the DNA platform"
+          "name": "retailDeposits&Loans",
+          "value": "Retail Deposits & Loans",
+          "description": "APIs that enable the creation, maintenance and processing of retail deposit and loan accounts"
         }
-      ]
-    },
-    {
-      "name": "businessSegments",
-      "value": "Business Segments",
-      "subcategories": [
-        {
-          "name": "b2B",
-          "value": "B2B",
-          "description": "Identify APIs that support business-to-business banking functions"
-        },
-        {
-          "name": "b2C",
-          "value": "B2C",
-          "description": "Identify APIs that support business-to-consumer banking functions"
-        }
-      ]
-    }
   ],
   "product": {
     "featured": true,
