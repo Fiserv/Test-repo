@@ -5,7 +5,7 @@
   "brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
   "solution": "openBanking",
   "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
-   "categories": [    
+  "categories": [
     {
       "name": "businessFunction",
       "value": "Business Function",
@@ -15,6 +15,8 @@
           "value": "Retail Deposits & Loans",
           "description": "APIs that enable the creation, maintenance and processing of retail deposit and loan accounts"
         }
+      ]
+    }
   ],
   "product": {
     "featured": true,
