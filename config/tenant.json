@@ -14,6 +14,21 @@
           "name": "retailDeposits&Loans",
           "value": "Retail Deposits & Loans",
           "description": "APIs that enable the creation, maintenance and processing of retail deposit and loan accounts"
+        },
+        {
+          "name": "businessDeposits&Loans",
+          "value": "Business Deposits & Loans",
+          "description":  "APIs that enable creation, maintenance and processing of small business and commercial deposit and loan accounts"
+        },
+        {
+          "name": "bankServicing",
+          "value": "Bank Servicing",
+          "description":  "APIs supporting functions in the back office, branch and call center"
+        },
+        {
+          "name": "cashManagement",
+          "value": "Cash Management",
+          "description":  "APIs for commercial payment services that support both payables and receivables needs of business clients"
         }
       ]
     }
