@@ -42,8 +42,8 @@ The Sandbox allows you to simulate a production environment with mock users and 
 
 Follow these steps to test your application in the Sandbox environment:
 1.	**Choose the Application:** Access the Sandbox environment and choose an application to use for testing
-2.	**Create a mock user database:** Create a mock user database: Create user accounts that reflect the sorts of banking accounts your application will be accessing
-3.	**Create mock transactions:** Create mock transactions: In the Sandbox environment, add transactions to simulate the kinds of transactions that occur on the banking accounts your application will be accessing
+2.	**Create a mock user database:** Create user accounts that reflect the sorts of banking accounts your application will be accessing
+3.	**Create mock transactions:** In the Sandbox environment, add transactions to simulate the kinds of transactions that occur on the banking accounts your application will be accessing
 4.	**Test the environment:** With the mock data setup, you can now make API calls and test your application
 
 > Note: Use the Sandbox authorization code while making the API calls.
