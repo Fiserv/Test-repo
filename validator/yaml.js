@@ -40,6 +40,8 @@ const validateDir = async (dir) => {
 };
 
 try {
+   console.log(`args: ${args}`);
+  console.log(`folder: ${folder}`);
   validateDir(folder);
 } catch (e) {
   failValidation(e.message);
