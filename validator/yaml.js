@@ -14,6 +14,8 @@ const failValidation = (message) => {
 };
 
 const validateDir = async (dir) => {
+  
+    console.log(`dir: ${dir}`);
   fs.readdir(dir, { withFileTypes: true }, (err, files) => {
     files.forEach(async file => {
 
@@ -23,6 +25,7 @@ const validateDir = async (dir) => {
 
         try {
           const fileName = `${dir}/${file.name}`;
+              console.log(`fileName: ${fileName}`);
           const content = fs.readFileSync(fileName, 'utf8');
           const apiJson = yaml.load(content);
           if (!apiJson.paths || !Object.keys(apiJson.paths).length) {
