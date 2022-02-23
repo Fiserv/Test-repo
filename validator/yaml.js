@@ -4,8 +4,8 @@ const fs = require('fs');
 const yaml = require('js-yaml');
 const SwaggerParser = require('@apidevtools/swagger-parser');
 
-const args = process.argv.slice(2);
-const folder = '../' + (args?.[0] || 'references/1.0.0');
+const args = process.argv.slice(3);
+const folder = (args?.[0] || 'references/1.0.0');
 
 const failValidation = (message) => {
   console.log('------------------------- VALIDATOR FAILED --------------------------')
@@ -14,8 +14,6 @@ const failValidation = (message) => {
 };
 
 const validateDir = async (dir) => {
-  
-    console.log(`dir: ${dir}`);
   fs.readdir(dir, { withFileTypes: true }, (err, files) => {
     files.forEach(async file => {
 
@@ -25,7 +23,6 @@ const validateDir = async (dir) => {
 
         try {
           const fileName = `${dir}/${file.name}`;
-              console.log(`fileName: ${fileName}`);
           const content = fs.readFileSync(fileName, 'utf8');
           const apiJson = yaml.load(content);
           if (!apiJson.paths || !Object.keys(apiJson.paths).length) {
@@ -43,9 +40,7 @@ const validateDir = async (dir) => {
 };
 
 try {
-   console.log(`args: ${args}`);
-  console.log(`folder: ${folder}`);
-  validateDir(folder);
+  validateDir( folder);
 } catch (e) {
   failValidation(e.message);
 }
