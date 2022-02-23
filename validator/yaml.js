@@ -44,7 +44,7 @@ try {
 
   console.log(` - args: ${args} `);
   console.log(` - folder: ${folder} `);
-  //validateDir( folder);
+  validateDir('Fiserv/Developer-Portal-Tenant-API/reference');
 } catch (e) {
   failValidation(e.message);
 }
