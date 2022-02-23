@@ -5,7 +5,7 @@ const yaml = require('js-yaml');
 const SwaggerParser = require('@apidevtools/swagger-parser');
 
 const args = process.argv.slice(3);
-const folder = (args?.[0] || 'references/1.0.0');
+const folder = (args?.[0]+'/reference' || 'references/1.0.0');
 
 const failValidation = (message) => {
   console.log('------------------------- VALIDATOR FAILED --------------------------')
