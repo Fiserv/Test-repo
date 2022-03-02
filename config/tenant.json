@@ -1,6 +1,6 @@
 {
-  "title": "Versioning POC",
-  "name": "VersioningPOC",
+  "title": "Sample Versioning Tenant",
+  "name": "SampleVersioningTenant",
   "brand": "Fiserv",
   "brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
   "solution": ["merchants"],
@@ -35,13 +35,26 @@
   ],
    "apiVersions": [
       {
-        "version": "11.0.0",
+        "version": "1.11.0",
         "versionType": "major",
-        "releaseNotesPath": "/release-notes/release-notes-11.0.0.md",
+        "releaseNotesPath": "/release-notes/release-notes-1.11.0.md",
+        "apiSpecFileNames": ["PartyAcctRelService","PartyService","PartyPartiesService"]
+      },
+      {
+        "version": "1.10.0",
+        "versionType": "minor",
+        "releaseNotesPath": "/release-notes/release-notes-1.10.0.md",
+        "apiSpecFileNames": ["PartyAcctRelService","PartyService","PartyPartiesService"]
+      },
+      {
+        "version": "1.9.0",
+        "versionType": "minor",
+        "releaseNotesPath": "/release-notes/release-notes-1.9.0.md",
         "apiSpecFileNames": ["PartyAcctRelService","PartyService","PartyPartiesService"]
       }
+	  
   ],
-  "featureBranches": ["preview", "previous"]
+  "featureBranches": ["preview", "previous"],
   "product": {
     "featured": true,
     "logoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
