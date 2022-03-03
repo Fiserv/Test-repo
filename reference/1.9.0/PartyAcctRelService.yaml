@@ -4,7 +4,7 @@ info:
   contact:
     name: Roopy Cullum
     email: Roopam.Cullum@Fiserv.com
-  version: "11.0.0"
+  version: "1.9.0"
   description: >
     "The Party Account Relationship service supports operation to manage the nature of a relationship between a Party and an Account Product. This relationship could be as an owner or non-owner, and is also used to indicate the primary contact and tax responsible parties. There may be any number of parties associated with an account and an individual party may be associated with any number of accounts"
 paths:
