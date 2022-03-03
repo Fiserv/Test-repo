@@ -4,7 +4,7 @@ info:
   contact: 
     name: Roopam Cullum
     email: Roopam.Cullum@Fiserv.com
-  version: "11.0.0"
+  version: "1.11.0"
   description: >
      "The Party to Party Relationship service supports operations to manage the relationship between an organization or person with another Party at a financial institution. The service is designed to focus on the relationship between two parties and not so much on the information that define the individuals having the relationship."
 paths: 
