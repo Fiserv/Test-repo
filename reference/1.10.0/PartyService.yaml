@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  version: "11.0.0"
+  version: "1.10.0"
   title: 'Party Service'
   description: 'The Party service supports operations managing customer data. This service allows to manage the properties related to a Person or Organization such as names and addresses, birthdate, gender, issued identifications, tax data, addresses, phone numbers, e-mail addresses, etc.'
   contact: 
