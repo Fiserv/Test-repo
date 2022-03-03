@@ -35,9 +35,9 @@
   ],
    "apiVersions": [
       {
-        "version": "1.11.0",
-        "versionType": "major",
-        "releaseNotesPath": "/release-notes/release-notes-1.11.0.md",
+        "version": "1.9.0",
+        "versionType": "minor",
+        "releaseNotesPath": "/release-notes/release-notes-1.9.0.md",
         "apiSpecFileNames": ["PartyAcctRelService","PartyService","PartyPartiesService"]
       },
       {
@@ -47,9 +47,9 @@
         "apiSpecFileNames": ["PartyAcctRelService","PartyService","PartyPartiesService"]
       },
       {
-        "version": "1.9.0",
-        "versionType": "minor",
-        "releaseNotesPath": "/release-notes/release-notes-1.9.0.md",
+        "version": "1.11.0",
+        "versionType": "major",
+        "releaseNotesPath": "/release-notes/release-notes-1.11.0.md",
         "apiSpecFileNames": ["PartyAcctRelService","PartyService","PartyPartiesService"]
       }
 	  
