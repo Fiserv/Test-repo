@@ -60,12 +60,12 @@
     "logoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
     "description": "APIs essential to maintaining pertinent data about accountholders, including which parties are related to which accounts and the nature of those relationships.",
     "longDescription": "APIs essential to maintaining pertinent data about accountholders, including which parties are related to which accounts and the nature of those relationships.<ul><li> Account lists</li><li> Party-to-account relationships</li><li> Party-to-party relationships</li></ul>",
-    "apiSpecification": "/v1/apis",
-    "layout": "/v1/layouts",
-    "documentation": "/v1/docs",
-    "documenttree": "/v1/docs",
-    "documenttreeV2": "/v2/docs",
-    "sandbox": "/v1/sandboxrun",
+    "apiSpecification": "/v1/apis/SampleVersioningTenant",
+    "layout": "/v1/layouts/SampleVersioningTenant",
+    "documentation": "/v1/docs/SampleVersioningTenant",
+    "documenttree": "/v1/docs/SampleVersioningTenant",
+    "documenttreeV2": "/v2/docs/SampleVersioningTenant",
+    "sandbox": "/v1/sandboxrun/SampleVersioningTenant",
     
     "feature": [
       {
