@@ -35,22 +35,10 @@
   ],
    "apiVersions": [
       {
-        "version": "1.9.0",
-        "versionType": "minor",
-        "releaseNotesPath": "/release-notes/release-notes-1.9.0.md",
-        "apiSpecFileNames": ["CardAccountRelationshipService","CardService"]
-      },
-      {
-        "version": "1.10.0",
-        "versionType": "minor",
-        "releaseNotesPath": "/release-notes/release-notes-1.10.0.md",
-        "apiSpecFileNames": ["CardAccountRelationshipService","CardService","PartyService"]
-      },
-      {
-        "version": "1.11.0",
+        "version": "1.8.3",
         "versionType": "major",
-        "releaseNotesPath": "/release-notes/release-notes-1.11.0.md",
-        "apiSpecFileNames": ["CardAccountRelationshipService","CardService","PartyAcctRelService","PartyService","PartyPartiesService"]
+        "releaseNotesPath": "/release-notes/release-notes-1.8.3.md",
+        "apiSpecFileNames": ["CardService"]
       }
 	  
   ],
