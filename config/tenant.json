@@ -42,7 +42,7 @@
       }
 	  
   ],
-  "featureBranches": ["preview", "previous"],
+  "featureBranches": ["develop", "stage", "main"],
   "product": {
     "featured": true,
     "logoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
