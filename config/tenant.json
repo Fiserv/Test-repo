@@ -35,19 +35,31 @@
   ],
    "apiVersions": [
       {
-        "version": "1.8.3",
-        "versionType": "major",
-        "releaseNotesPath": "/release-notes/release-notes-1.8.3.md",
+        "version": "1.8.0",
+        "versionType": "minor",
+        "releaseNotesPath": "docs/release-notes/release-notes.md",
         "apiSpecFileNames": [
-		"CardService",
-		"Servicing/HostSystemService",
-        	"Servicing/EnumTableService",
-		"Payments/CreditService",
-        	"Payments/DebitService",
-		"Payments/TransferService"
+		"AccountsAndTransactions/AcctHoldService.yaml"
 	]
-      }
-	  
+      },
+      {
+        "version": "1.8.1",
+        "versionType": "minor",
+        "releaseNotesPath": "docs/release-notes/release-notes.md",
+        "apiSpecFileNames": [
+        	"Servicing/EnumTableService"
+	]
+      },
+      {
+        "version": "1.8.2",
+        "versionType": "major",
+        "releaseNotesPath": "docs/release-notes/release-notes.md",
+        "apiSpecFileNames": [
+		"AccountsAndTransactions/AcctHoldService.yaml",
+		"Servicing/HostSystemService",
+        	"Servicing/EnumTableService"
+	]
+      }	  
   ],
   "featureBranches": ["develop", "stage", "main"],
   "product": {
