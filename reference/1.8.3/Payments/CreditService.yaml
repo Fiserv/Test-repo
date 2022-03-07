@@ -6,7 +6,7 @@ info:
   contact:
     name: Isabelle Mathon
     email: Isabelle.Mathon@fiserv.com
-  version: 11.0.0
+  version: 1.8.3
 servers:
 - url: /
 tags:
