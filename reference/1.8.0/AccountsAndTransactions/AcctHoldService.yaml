@@ -6,7 +6,7 @@ info:
   contact:
     name: Isabelle Mathon
     email: Isabelle.Mathon@Fiserv.com
-  version: 11.0.0
+  version: 1.8.0
 servers:
 - url: https://swaggerhub.onefiserv.net/virts/Bank_Sol_Org/AcctHoldService/11.0.0
   description: SwaggerHub API Auto Mocking
