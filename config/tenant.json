@@ -38,7 +38,14 @@
         "version": "1.8.3",
         "versionType": "major",
         "releaseNotesPath": "/release-notes/release-notes-1.8.3.md",
-        "apiSpecFileNames": ["CardService"]
+        "apiSpecFileNames": [
+		"CardService",
+		"Servicing/HostSystemService",
+        	"Servicing/EnumTableService",
+		"Payments/CreditService",
+        	"Payments/DebitService",
+		"Payments/TransferService"
+	]
       }
 	  
   ],
