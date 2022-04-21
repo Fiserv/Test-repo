@@ -4,4 +4,4 @@
     open: true
   - title: Release Notes
     link: docs/release-notes/2022/march.md
-    open: true
+    open: false
