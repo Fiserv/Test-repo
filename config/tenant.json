@@ -48,10 +48,10 @@
     "documentation": "/v1/docs/SampleVersioningTenant",
     "documenttree": "/v1/docs/SampleVersioningTenant",
     "documenttreeV2": "/v2/docs/SampleVersioningTenant",
+    "docsCount": "/v2/docs/count/SampleVersioningTenant",
     "sandbox": "/v1/sandboxrun/SampleVersioningTenant",
     "accessConfig": "/v1/fileAccess/SampleVersioningTenant",
     "assets": "/v1/assets/SampleVersioningTenant",   
-    "docsCount": "/v2/docs/count/SampleVersioningTenant",
     "feature": [
       {
         "name": "sandBox",
