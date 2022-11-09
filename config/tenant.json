@@ -5,36 +5,26 @@
   "brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
   "solution": ["merchants, small-business, mid-size-business"],
   "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
+  "description": "This Latest ",
+  "releaseNotesPath": "/release-notes/release-notes-1.9.0.md",		
   "apiVersions": [
       {
         "version": "1.9.0",
         "versionType": "minor",
         "releaseNotesPath": "/release-notes/release-notes-1.9.0.md",
         "apiSpecFileNames": ["CardAccountRelationshipService","CardService"],
-	"startDate": "02/02/2022",
-	"description": "This is version 1.9.0",
-	"label": "current",
-	"active": true 
       },
       {
         "version": "1.10.0",
         "versionType": "minor",
         "releaseNotesPath": "/release-notes/release-notes-1.10.0.md",
-        "apiSpecFileNames": ["CardAccountRelationshipService","CardService","PartyService"],
-	"startDate": "02/02/2022",
-	"description": "This is version 1.10.0",
-	"label": "current",
-	"active": true
+        "apiSpecFileNames": ["CardAccountRelationshipService","CardService","PartyService"]
       },
       {
         "version": "1.11.0",
         "versionType": "major",
         "releaseNotesPath": "/release-notes/release-notes-1.11.0.md",
-        "apiSpecFileNames": ["CardAccountRelationshipService","CardService","PartyAcctRelService","PartyService","PartyPartiesService"],
-	"startDate": "02/02/2022",
-	"description": "This is version 1.11.0",
-	"label": "current",
-	"active": true     
+        "apiSpecFileNames": ["CardAccountRelationshipService","CardService","PartyAcctRelService","PartyService","PartyPartiesService"]  
       }
 	  
   ],
