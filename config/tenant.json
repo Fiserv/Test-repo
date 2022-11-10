@@ -6,7 +6,7 @@
   "solution": ["merchants, small-business, mid-size-business"],
   "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
   "branchDescription": "This is the Latest version",
-  "releaseNotesPath": "/release-notes/release-notes-1.9.0.md",		
+  "releaseNotesPath": "/release-notes/release-notes.md",		
   "apiVersions": [
       {
         "version": "1.9.0",
