@@ -1,6 +1,9 @@
 header:
   productionDescription: > 
-     <p>This API grouping enables access to pertinent information about accounts within a financial institution, transactions related to those accounts and relationships between accounts and accountholders. </p><ul><li> Account lists</li><li> Transaction data</li><li> Balance information</li></ul>
+     <p>This sAPI grouping enables access to pertinent information about accounts within a financial institution, transactions related to those accounts and relationships between accounts and accountholders. </p><ul><li> Account lists</li><li> Transaction data</li><li> Balance information</li></ul>
+  whoIsItFor: >
+    Made for developers by dev1. \n
+    Developers benefit from hassle free integration through seamless sample code sharing and test credential management, in an agile approach.   
 steps:  
   learnSteps:
     - title: Learn

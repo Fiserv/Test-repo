@@ -1,89 +1,62 @@
 {
-  "title": "Sample Versioning Tenant",
-  "name": "SampleVersioningTenant",
-  "brand": "Fiserv",
-  "brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
-  "solution": ["merchants"],
-  "brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
-  "categories": [
-    {
-      "name": "businessFunction",
-      "value": "Business Function",
-      "subcategories": [
-        {
-          "name": "deposits",
-	  "value": "Deposits",
-	  "description": "APIs that make it possible to create, modify or retrieve records for deposit accounts and transactions"
-        },
-        {
-          "name": "loans",
-	  "value": "Loans",
-	  "description": "APIs that make it possible to create, modify or retrieve records for loan accounts and transactions"
-        },
-        {
-          "name": "bankServicing",
-	  "value": "Bank Servicing",
-	  "description": "APIs that support account processing functions in the back office, branch and call center"
-        },
-        {
-          "name": "riskAndPerformance",
-	  "value": "Risk and Performance",
-	  "description": "APIs that support compliance, fraud mitigation and insights into financial performance"
-        }
-      ]
-    }
-  ],
-   "apiVersions": [
-      {
-        "version": "1.9.0",
-        "versionType": "minor",
-        "releaseNotesPath": "/release-notes/release-notes-1.9.0.md",
-        "apiSpecFileNames": ["CardAccountRelationshipService","CardService"]
-      },
-      {
-        "version": "1.10.0",
-        "versionType": "minor",
-        "releaseNotesPath": "/release-notes/release-notes-1.10.0.md",
-        "apiSpecFileNames": ["CardAccountRelationshipService","CardService","PartyService"]
-      },
-      {
-        "version": "1.11.0",
-        "versionType": "major",
-        "releaseNotesPath": "/release-notes/release-notes-1.11.0.md",
-        "apiSpecFileNames": ["CardAccountRelationshipService","CardService","PartyAcctRelService","PartyService","PartyPartiesService"]
-      }
-	  
-  ],
-  "featureBranches": ["preview", "previous"],
-  "product": {
-    "featured": true,
-    "logoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
-    "description": "APIs essential to maintaining pertinent data about accountholders, including which parties are related to which accounts and the nature of those relationships.",
-    "longDescription": "APIs essential to maintaining pertinent data about accountholders, including which parties are related to which accounts and the nature of those relationships.<ul><li> Account lists</li><li> Party-to-account relationships</li><li> Party-to-party relationships</li></ul>",
-    "apiSpecification": "/v1/apis/SampleVersioningTenant",
-    "layout": "/v1/layouts/SampleVersioningTenant",
-    "documentation": "/v1/docs/SampleVersioningTenant",
-    "documenttree": "/v1/docs/SampleVersioningTenant",
-    "documenttreeV2": "/v2/docs/SampleVersioningTenant",
-    "sandbox": "/v1/sandboxrun/SampleVersioningTenant",
-    
-    "feature": [
-      {
-        "name": "sandBox",
-        "value": true
-      },
-      {
-        "name": "plugins",
-        "value": false
-      },
-      {
-        "name": "industryOptionsAPIExplorer",
-        "value": false
-      },
-      {
-        "name": "editParameterAPIExplorer",
-        "value": true
-      }
-    ]
-  }
+	"title": "Sample Versioning Tenant",
+	"name": "SampleVersioningTenant",
+	"brand": "Fiserv",
+	"brandLogoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
+	"solution": ["merchants, small-business, mid-size-business"],
+	"brandDescription": "Explore and use our APIs to build, test, certify, and deploy solutions pre-integrated to our market-leading account processing platforms.",
+	"branchDescription": "This is the Latest version",
+	"releaseNotesPath": "/docs/release-notes.md",
+	"apiVersions": [{
+			"version": "1.9.0",
+			"versionType": "minor",
+			"releaseNotesPath": "/release-notes/release-notes-1.9.0.md",
+			"apiSpecFileNames": ["CardAccountRelationshipService", "CardService"]
+		},
+		{
+			"version": "1.10.0",
+			"versionType": "minor",
+			"releaseNotesPath": "/release-notes/release-notes-1.10.0.md",
+			"apiSpecFileNames": ["CardAccountRelationshipService", "CardService", "PartyService"]
+		},
+		{
+			"version": "1.11.0",
+			"versionType": "major",
+			"releaseNotesPath": "/release-notes/release-notes-1.11.0.md",
+			"apiSpecFileNames": ["CardAccountRelationshipService", "CardService", "PartyAcctRelService", "PartyService", "PartyPartiesService"]
+		}
+
+	],
+	"product": {
+		"featured": true,
+		"logoURL": "https://s7d2.scene7.com/is/image/fiserv/GettyImages-838090142",
+		"description": "APIs essential to maintaining pertinent data about accountholders, including which parties are related to which accounts and the nature of those relationships.",
+		"longDescription": "APIs essential to maintaining pertinent data about accountholders, including which parties are related to which accounts and the nature of those relationships.<ul><li> Account lists</li><li> Party-to-account relationships</li><li> Party-to-party relationships</li></ul>",
+		"apiSpecification": "/v1/apis/SampleVersioningTenant",
+		"layout": "/v1/layouts/SampleVersioningTenant",
+		"documentation": "/v1/docs/SampleVersioningTenant",
+		"documenttree": "/v1/docs/SampleVersioningTenant",
+		"documenttreeV2": "/v2/docs/SampleVersioningTenant",
+		"docsCount": "/v2/docs/count/SampleVersioningTenant",
+		"sandbox": "/v1/sandboxrun/SampleVersioningTenant",
+		"accessConfig": "/v1/fileAccess/SampleVersioningTenant",
+		"assets": "/v1/assets/SampleVersioningTenant",
+		"feature": [{
+				"name": "sandBox",
+				"value": true
+			},
+			{
+				"name": "plugins",
+				"value": false
+			},
+			{
+				"name": "industryOptionsAPIExplorer",
+				"value": false
+			},
+			{
+				"name": "editParameterAPIExplorer",
+				"value": true
+			}
+		]
+	}
 }
