@@ -2,7 +2,7 @@
 openapi: 3.0.0
 info:
   title: Card Account Relationship Service
-  description: Card Account Relationship service provides maintenance of relationship between Cards and Financial Accounts Atempt1.
+  description: Card Account Relationship service provides maintenance of relationship between Cards and Financial Accounts Atempt-2.
   contact:
     name: Tracy Dahle
     email: Tracy.Dahle@fiserv.com
