@@ -1,6 +1,6 @@
 - sections:
   - title: Getting Started
-    link: docs/getting-started.md
+    link: docs/getting-started1.md
     open: true
   - title: Release Notes
     link: docs/release-notes/2022/march.md

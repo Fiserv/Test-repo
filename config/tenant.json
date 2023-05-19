@@ -20,10 +20,10 @@
 			"apiSpecFileNames": ["CardAccountRelationshipService", "CardService", "PartyService"]
 		},
 		{
-			"version": "1.11.0",
+			"version": "1.08.0",
 			"versionType": "major",
 			"releaseNotesPath": "/release-notes/release-notes-1.11.0.md",
-			"apiSpecFileNames": ["CardAccountRelationshipService", "CardService", "PartyAcctRelService", "PartyService", "PartyPartiesService"]
+			"apiSpecFileNames": ["CardAccountRelationshipService1", "CardService", "PartyAcctRelService", "PartyService", "PartyPartiesService"]
 		}
 
 	],
