@@ -11,6 +11,6 @@ on:
 jobs:
   validator: 
     uses: Fiserv/remote-actions-v1/.github/workflows/validator-service.yaml@develop
-    #secrets: inherit
+    secrets: inherit
     
  
