@@ -1,5 +1,7 @@
 name: Studio Validator
 on:
+  workflow_dispatch:
+  workflow_call:
   # Triggers the workflow on push or pull request events but only for the dev , stage and main branch
   push:
     branches: [ develop,stage,main ]
@@ -8,5 +10,7 @@ on:
 
 jobs:
   validator: 
-    uses: Fiserv/remote-actions-v1/.github/workflows/validator-service.yaml@main    
- 
+    uses: Fiserv/remote-actions-v1/.github/workflows/validator-service.yaml@develop
+    secrets: inherit
+    
+
