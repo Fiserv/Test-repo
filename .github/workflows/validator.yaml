@@ -6,7 +6,9 @@ on:
   push:
     branches: [ develop,stage,main ]
   pull_request:
-    branches: [ develop,stage,main ]
+   # branches: [ develop,stage,main ]
+    types: [opened , reopened]
+    paths: ['**.json' , '**.yaml']
 
 jobs:
   validator: 
