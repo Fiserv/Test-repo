@@ -1,6 +1,6 @@
 # Getting Started -- STAGE ENV
 
-Accountholder APIs are essential to maintaining data about financial institution accountholders, including relationships between customers and accounts. This quick guide will help you to get started with our Accountholder APIs and enable you to integrate these into your applications. - Testing 
+Accountholder APIs are essential to maintaining data about financial institution accountholders, including relationships between customers and accounts. This quick guide will help you to get started with our Accountholder APIs and enable you to integrate these into your applications. - Testing 2
 
 Following topics are covered in this guide:
 * Registration
