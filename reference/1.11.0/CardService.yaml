@@ -4,7 +4,7 @@ info:
   title: Card Service
   description: The Card service provides administration in respect to creation, modification, inquiry, and deletion of any type of EFT cards used by the holders Test. It supports operations managing the credit, debit, prepaid and private label cards.
   contact:
-    name: Tracy Dahle
+    name: Tracy Dahle-123
     email: Tracy1.Dahle@fiserv.com
   version: 1.11.0
 servers:
