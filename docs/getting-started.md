@@ -77,4 +77,4 @@ Refer to the following links for more information on the Fiserv Open Banking API
 ## Feedback and Support
 
 
-Dig in and start coding your applications using our APIs. If you should need additional support, please include the GitHub definition for each API you are inquiring about. Contact our team using the Support link on the homepage. Test123
+Dig in and start coding your applications using our APIs. If you should need additional support, please include the GitHub definition for each API you are inquiring about. Contact our team using the Support link on the homepage.
