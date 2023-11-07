@@ -8,7 +8,7 @@ on:
   pull_request:
    # branches: [ develop,stage,main ]
     types: [opened, reopened, synchronize, edited]
-    paths: ['config/**.json' , 'reference/**.yaml']
+    # paths: ['config/**.json' , 'reference/**.yaml']
 
 jobs:
   validator: 
