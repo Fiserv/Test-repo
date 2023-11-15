@@ -5,7 +5,7 @@ Accountholder APIs are essential to maintaining data about financial institution
 Following topics are covered in this guide:
 * Registration
 * Authentication
-* Sandbox
+* Sandboxes
 * Certification
 * Resources
 
