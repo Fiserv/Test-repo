@@ -1,6 +1,6 @@
 # Getting Started -- STAGE ENV
 
-DevStudio APIs are essential to maintaining data about financial institution accountholders, including relationships between customers and accounts. This quick guide will help you to get started with our Accountholder APIs and enable you to integrate these into your applications.- Test
+DevStudio APIs are essential to maintaining data about Developer Studio, including relationships between customers and accounts. This quick guide will help you to get started with our Accountholder APIs and enable you to integrate these into your applications.- Test
 
 Following topics are covered in this guide:
 * Registration
