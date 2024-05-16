@@ -8,10 +8,10 @@ on:
 
 jobs:
   api_validator: 
-    uses: Fiserv/remote-actions/.github/workflows/github-yaml-validator.yaml
+    uses: Fiserv/remote-actions/.github/workflows/github-yaml-validator.yaml@main
     secrets: inherit
   api-zip-generator:
     needs: api_validator
-    uses: Fiserv/remote-actions/.github/workflows/github-zip-generator.yaml
-    if: ${{ !contains( needs.api_validator.outputs.statuscheck , 'SKIPPED')}}
+    uses: Fiserv/remote-actions/.github/workflows/github-zip-generator.yaml@main
+    if: ${{!contains( needs.api_validator.outputs.statuscheck , 'SKIPPED')}}
     secrets: inherit
