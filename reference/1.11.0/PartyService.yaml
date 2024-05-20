@@ -2,7 +2,7 @@
 openapi: 3.0.0
 info:
   title: Party Service
-  description: The Party service provides support for operations that manage Party data and properties related to the Party such as names, addresses, issued identifications, tax data, phone numbers and email addresses.<br> Party refers to a person or organization, who has a relationship with the financial institution.
+  description: The Party Service provides support for operations that manage Party data and properties related to the Party such as names, addresses, issued identifications, tax data, phone numbers and email addresses.<br> Party refers to a person or organization, who has a relationship with the financial institution.
   contact:
     name: Kavita Kulkarni
     email: Roopam.Cullum@Fiserv.com
