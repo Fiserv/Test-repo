@@ -1,6 +1,5 @@
 name: Studio Validator
 on:
-  # Triggers the workflow on pull request events for the dev, stage, main, preview, and previous branch.
   pull_request:
     branches: [ develop,stage,main,preview,previous ]
 
